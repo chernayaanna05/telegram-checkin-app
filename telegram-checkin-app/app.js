@@ -29,7 +29,7 @@ btn.onclick = async () => {
 };
 
 function sendData(photo) {
-  fetch("URL_ТВОЕГО_СЕРВЕРА", {
+  fetch("https://script.google.com/macros/s/AKfycbz14QsTfssmAcxk6ai113FtIvC_DuUhrgqzEO6xA0dqiuKa24v2vV8YGAcFt6W_MXCdlQ/exec", {
     method: "POST",
     body: JSON.stringify({
       user: tg.initDataUnsafe.user,
